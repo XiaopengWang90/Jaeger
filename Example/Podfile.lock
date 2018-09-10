@@ -1,0 +1,27 @@
+PODS:
+  - CocoaAsyncSocket (7.6.1)
+  - Jaeger (0.1.11):
+    - CocoaAsyncSocket
+    - opentracing
+  - opentracing (0.5.0)
+
+DEPENDENCIES:
+  - Jaeger (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+    - opentracing
+
+EXTERNAL SOURCES:
+  Jaeger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  Jaeger: a2813f751d47600f5fd6fd75b2faa292de709059
+  opentracing: 2c1a1076e2ab26f56189b02dcb1e72cf0b297917
+
+PODFILE CHECKSUM: aa7c572e58d9467b0ea054f07d7c669f5b08a7b7
+
+COCOAPODS: 1.5.3
